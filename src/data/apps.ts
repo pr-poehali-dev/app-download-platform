@@ -1,0 +1,66 @@
+import { AppType } from "@/components/AppCard";
+
+export const apps: AppType[] = [
+  {
+    id: "1",
+    title: "Медитация Pro",
+    description: "Приложение для расслабления и медитации с библиотекой успокаивающих звуков и руководств по дыханию.",
+    icon: "/placeholder.svg",
+    category: "Здоровье",
+    size: "24 МБ",
+    version: "2.1.0",
+    downloadUrl: "#",
+  },
+  {
+    id: "2",
+    title: "Фото Редактор",
+    description: "Профессиональный редактор фотографий с множеством фильтров и инструментов для обработки.",
+    icon: "/placeholder.svg",
+    category: "Фотография",
+    size: "45 МБ",
+    version: "3.5.2",
+    downloadUrl: "#",
+  },
+  {
+    id: "3",
+    title: "Заметки+",
+    description: "Простое и эффективное приложение для создания заметок, списков дел и установки напоминаний.",
+    icon: "/placeholder.svg",
+    category: "Продуктивность",
+    size: "18 МБ",
+    version: "1.9.5",
+    downloadUrl: "#",
+  },
+  {
+    id: "4",
+    title: "Фитнес Трекер",
+    description: "Отслеживайте свои тренировки, питание и прогресс в достижении фитнес-целей.",
+    icon: "/placeholder.svg",
+    category: "Здоровье",
+    size: "32 МБ",
+    version: "4.0.1",
+    downloadUrl: "#",
+  },
+  {
+    id: "5",
+    title: "Погода Live",
+    description: "Подробный прогноз погоды с красивой анимацией и точными данными для любой точки мира.",
+    icon: "/placeholder.svg",
+    category: "Погода",
+    size: "28 МБ",
+    version: "2.8.3",
+    downloadUrl: "#",
+  },
+  {
+    id: "6",
+    title: "Калькулятор Pro",
+    description: "Научный калькулятор с продвинутыми функциями для учебы и работы.",
+    icon: "/placeholder.svg",
+    category: "Инструменты",
+    size: "15 МБ",
+    version: "1.3.7",
+    downloadUrl: "#",
+  },
+];
+
+export const categories = ["Здоровье", "Фотография", "Продуктивность", "Погода", "Инструменты"];
