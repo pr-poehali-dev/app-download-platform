@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <div className="container max-w-6xl py-8">
       <header className="mb-12 text-center">
-        <h1 className="text-4xl font-bold mb-2">Центр Приложений</h1>
+        <h1 className="text-4xl font-bold mb-2">СофтХаб</h1>
         <p className="text-muted-foreground">Найдите и скачайте лучшие приложения для своих устройств</p>
       </header>
 
